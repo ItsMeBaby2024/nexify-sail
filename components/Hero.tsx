@@ -15,14 +15,14 @@ const captainLines = {
     '年度晚宴到喇，今晚唔使諗工作，飲就得！🎉',
     '辛苦咗一年，今晚係你地嘅夜晚！🙌',
     '出海前，先搞定你今晚嘅飲品！😄',
-    'Nexify人出嚟玩，梗係要飲到盡！🍹',
+    '今晚出嚟玩，梗係要飲到盡！🍹',
   ],
   en: [
     "Cheers to the voyage ahead — business is booming! 🥂",
     "Annual Dinner is here. No work talk tonight, just drinks! 🎉",
     "You've worked hard all year. Tonight is yours! 🙌",
     "Before we set sail, let's sort out your drink first! 😄",
-    "Nexify crew out to play — let's make it count! 🍹",
+    "Tonight we play — let's make every sip count! 🍹",
   ],
 }
 
@@ -165,13 +165,13 @@ export default function Hero({ onStart }: Props) {
 
       {/* ── TOP NAV: logos ── */}
       <div className="relative z-20 flex items-start justify-between px-5 pt-5">
-        {/* Left stack: Nexify on top, XOXO directly below */}
+        {/* Left row: Nexify + XOXO side by side */}
         <motion.div
           initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}
-          className="flex flex-col gap-1.5"
+          className="flex flex-row items-center gap-3"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo-nexify.svg" alt="Nexify" style={{ height: 44, width: 'auto' }} />
+          <img src="/logo-nexify-white.svg" alt="Nexify" style={{ height: 36, width: 'auto' }} />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo-xoxo.png" alt="XOXO Beverages" style={{ height: 22, width: 'auto' }} />
         </motion.div>

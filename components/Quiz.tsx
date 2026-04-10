@@ -315,7 +315,7 @@ export default function Quiz({ onComplete, onBack }: Props) {
       >
         <span className="text-5xl">{emoji}</span>
         <span className="text-base font-semibold text-white">{label}</span>
-        {sub && <span className="text-xs" style={{ color: 'rgba(255,255,255,0.45)' }}>{sub}</span>}
+        {sub && <span className="text-xs whitespace-pre-line" style={{ color: 'rgba(255,255,255,0.45)' }}>{sub}</span>}
       </motion.div>
     )
   }
