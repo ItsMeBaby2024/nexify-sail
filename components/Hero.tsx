@@ -11,18 +11,18 @@ interface Props { onStart: () => void }
 
 const captainLines = {
   zh: [
-    '歡迎上船！🍸 今晚我係你地嘅船長兼調酒師！',
-    '出得嚟飲，就要飲得有型！準備好未？⚓',
-    '哈！唔知飲咩？俾我兩分鐘，我搞掂你！🥃',
-    '今晚海浪大，但你杯嘢一定穩！😂',
-    '上船！唔飲嘢點算係出海？🛳️',
+    '恭喜晒！出海前飲一杯，祝生意興隆！🥂',
+    '年度晚宴到喇，今晚唔使諗工作，飲就得！🎉',
+    '辛苦咗一年，今晚係你地嘅夜晚！🙌',
+    '出海前，先搞定你今晚嘅飲品！😄',
+    'Nexify人出嚟玩，梗係要飲到盡！🍹',
   ],
   en: [
-    "Welcome aboard! 🍸 Tonight I'm your Captain AND bartender!",
-    "If you sail with style, you drink with style. Ready? ⚓",
-    "Ha! Don't know what to drink? Give me 2 minutes! 🥃",
-    "The seas are rough tonight, but your drink will be smooth! 😂",
-    "All aboard! You can't call it a voyage without a drink! 🛳️",
+    "Cheers to the voyage ahead — business is booming! 🥂",
+    "Annual Dinner is here. No work talk tonight, just drinks! 🎉",
+    "You've worked hard all year. Tonight is yours! 🙌",
+    "Before we set sail, let's sort out your drink first! 😄",
+    "Nexify crew out to play — let's make it count! 🍹",
   ],
 }
 
