@@ -173,7 +173,7 @@ export default function Hero({ onStart }: Props) {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo-nexify.svg" alt="Nexify" style={{ height: 44, width: 'auto' }} />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo-xoxo.png" alt="XOXO Beverages" style={{ height: 34, width: 'auto' }} />
+          <img src="/logo-xoxo.png" alt="XOXO Beverages" style={{ height: 22, width: 'auto' }} />
         </motion.div>
 
         {/* Right: lang toggle only */}
