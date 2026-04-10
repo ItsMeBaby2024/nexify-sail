@@ -259,9 +259,6 @@ export default function Hero({ onStart }: Props) {
           <span style={{ background: 'linear-gradient(135deg, #F0D080, #C9A84C)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Sip</span>
         </motion.h1>
 
-        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.38 }} className="text-base mb-2" style={{ color: '#7BBCDB', letterSpacing: '0.1em' }}>
-          出海飲一杯
-        </motion.p>
         <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.45 }} className="text-xs mb-8 max-w-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.4)' }}>
           {tr.heroSub}
         </motion.p>
