@@ -242,7 +242,7 @@ export default function Result({ answers, onRestart, onHome }: Props) {
                       }}
                     >
                       <span>{isAlc ? '🍹' : '🥤'}</span>
-                      <span>{isAlc ? tr.alcBadge : tr.nonAlcBadge}</span>
+                      <span>{isAlc ? tr.cocktailLabel : tr.mocktailLabel}</span>
                       <span style={{ opacity: 0.6, fontSize: 9 }}>▼</span>
                     </motion.button>
 
