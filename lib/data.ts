@@ -38,6 +38,10 @@ export const t = {
     alcBadge: '有酒精',
     nonAlcBadge: '零酒精',
     low: 'LOW', mid: 'MID', high: 'HIGH',
+    timeUp: '時間到！⏱️',
+    timeUpSub: '60秒已過，重新出發吧！',
+    switchToMock: '切換到無酒精版本',
+    switchToAlc: '切換到有酒精版本',
     langSwitch: 'English',
   },
   en: {
@@ -77,6 +81,10 @@ export const t = {
     alcBadge: 'Alcoholic',
     nonAlcBadge: 'Non-Alcoholic',
     low: 'LOW', mid: 'MID', high: 'HIGH',
+    timeUp: "Time's Up! ⏱️",
+    timeUpSub: '60 seconds have passed — try again!',
+    switchToMock: 'Switch to Non-Alcoholic',
+    switchToAlc: 'Switch to Alcoholic',
     langSwitch: '中文',
   },
 }
