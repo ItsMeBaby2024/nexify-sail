@@ -144,8 +144,8 @@ export default function Result({ answers, onRestart, onHome }: Props) {
   const { lang, tr } = useI18n()
   const [showResult, setShowResult] = useState(false)
   const [showConfetti, setShowConfetti] = useState(false)
-  // isAlc can be toggled — defaults to true (alcoholic)
-  const [isAlc, setIsAlc] = useState(true)
+  // isAlc defaults to what the user chose in the quiz, but can be toggled
+  const [isAlc, setIsAlc] = useState(answers.alc === 'alcoholic')
 
   const drinkIndex = drinkMatrix[answers.alc][answers.personality][answers.mood][answers.feeling]
   const drink = drinkData[drinkIndex]
