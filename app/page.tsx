@@ -20,7 +20,9 @@ export default function Home() {
 
   return (
     <>
-      <LangToggle />
+      {/* Fixed lang toggle only on quiz/result — hero has its own inline */}
+      {screen !== 'hero' && <LangToggle fixed />}
+
       <AnimatePresence mode="wait">
         {screen === 'hero' && <Hero key="hero" onStart={handleStart} />}
         {screen === 'quiz' && (

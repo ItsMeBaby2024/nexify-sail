@@ -1,0 +1,10 @@
+<svg width="302" height="104" viewBox="0 0 302 104" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .x { font-family: 'Georgia', serif; font-size: 62px; font-weight: 700; fill: #C9960C; letter-spacing: -2px; }
+    .bev { font-family: 'Georgia', serif; font-size: 18px; font-weight: 400; fill: #C9960C; letter-spacing: 4px; }
+  </style>
+  <!-- XOXO large -->
+  <text class="x" x="2" y="70">XOXO</text>
+  <!-- BEVERAGES small -->
+  <text class="bev" x="2" y="96">BEVERAGES</text>
+</svg>
