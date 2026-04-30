@@ -179,7 +179,7 @@ export const drinkData: Record<number, DrinkData> = {
     color: '#FF6699',
     color2: '#CC3366',
     alcIngredients: 'Roselle · Gin · Cranberry',
-    mockIngredients: 'Roselle Tea · Cranberry · Sparkling Water',
+    mockIngredients: 'Cranberry · Soda Water · Lemonade',
     taste: {
       zh: '花香酸甜、優雅平衡，宛如日落時分的浪漫航程。你溫柔細膩，善於欣賞生活中的一切美好。',
       en: 'Floral and bittersweet, elegantly balanced — like a romantic sunset voyage. Gentle and refined.',
@@ -207,7 +207,7 @@ export const drinkData: Record<number, DrinkData> = {
     color: '#FFB366',
     color2: '#E07820',
     alcIngredients: 'Amaretto · Whiskey · Lemon',
-    mockIngredients: 'Non-alc Amaretto · Lemon · Simple Syrup',
+    mockIngredients: 'Peach · Lemon · Soda Water',
     taste: {
       zh: '杏仁甜香加以微酸，溫暖中帶有一絲驚喜。你充滿智慧，善於在寧靜中發現無限可能。',
       en: 'Almond sweetness + gentle sourness — warm, comforting with a delightful twist. Wise and curious.',
